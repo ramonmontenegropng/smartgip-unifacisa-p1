@@ -1,0 +1,270 @@
+html{
+    background-color: rgb(255, 255, 255);
+    font-family: "Inter",sans-serif;
+    height: 60rem;
+    margin: 0;
+    padding: 0;
+    background-color: #191A1E;    
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/inter-ExtraBold.ttf') format('truetype');
+}
+
+
+a {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    top: 9px;
+    right: 0;
+    left: 54px;
+    bottom: 0;
+}
+
+.mainMenuNav{
+    width: 100%;
+    position: absolute;
+    top: 3.1%;
+    background-color: #191A1E;
+    height: 5rem;
+    left: 0;
+}
+
+.mainMenuItem{
+    margin-right: 12rem;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    font-size: larger;
+}
+
+.acesso{
+    position: relative;
+    float: right;
+    border-radius: 20px;
+    top: -4rem;
+    right: 3rem;
+    width: 6rem;
+    height: 2.5rem;
+    padding: 5px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: #1b2b50;
+}
+
+.mainLogo{
+
+    position: relative;
+    top: 36%;
+    left: 5%;
+}
+
+.unanimatedList{
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    top: -1.6rem;
+}
+
+.unanimatedListBottom{
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    top: 4rem;
+}
+
+.mainMenuButtons{
+    position: relative;
+    left: 29%;
+    width: 47%;
+}
+
+.telIcon{
+    margin-right: 10px;
+    width: 6.9%;
+    left: 12%;
+    top: -8px;
+    position: relative;
+    filter: invert(1);
+}
+
+.contact{
+    position: relative;
+    top: 50%;
+    width: 8%;
+    left: 4%;
+    display: flex;
+}
+
+.contact:hover{
+    filter: drop-shadow(2px 4px 6px black);
+    filter: opacity(0.5);
+}
+
+.email{
+    position: relative;
+    top: -27px;
+    left: -22rem;
+}
+
+.email:hover{
+    filter: drop-shadow(2px 4px 6px black);
+    filter: opacity(0.5);
+}
+
+.emailIcon{
+    width: 26px;
+    left: 32%;
+    top: 15.5px;
+    position: relative;
+    filter: invert(1);
+}
+
+.emailAddres{
+    position: relative;
+    top: 8px;
+    left: 32.5%;
+    font-size: x-small;
+}
+
+.phoneNumber{    
+    position: relative;
+    top: -4px;
+    left: 12.5%;
+    font-size: x-small;
+}
+
+.topper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #2babe254;
+    width: 100%;
+    height: 3%;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.footerContainer{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #222327;
+    width: 100%;
+    height: 30%;
+    left: 0;
+    top: 57rem;
+}
+
+.address{
+    top: 6rem;
+    width: 39rem;
+    left: 5.99rem;
+    position: relative;
+    color: white;
+}
+
+.mainFooterLogo{
+    position: relative;
+    float: right;
+    bottom: 0rem;
+    width: 8.375rem;
+    position: relative;
+    right: 3rem;
+}
+
+.div-mapas{
+    position: relative;
+    top: 177px;
+}
+
+.menu-mapas{
+    list-style: none;   
+}
+
+.menu-mapas input{
+    background-color: #242323;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    margin: 12px;
+    width: 170px;
+    height: 37px;
+    padding: 5px;
+    filter: drop-shadow(2px 4px 2px black);
+}
+
+.menu-mapas input:hover{
+    background-color: #beb5b5;
+    color: #0a0909;
+    
+}
+
+.mapa-cidade{
+    width: 83%;
+    height: 64%;
+    border: none;
+    position:absolute;
+    top: 199px;
+    right: 0;
+    left: 269px;
+    bottom: 0;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+
+#btn-voltar {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    top: 173px;
+    right: 0;
+    left: 83px;
+    bottom: 0;
+}
+
+
+#btn-voltar span{ /*Seta do Botão de voltar*/
+    display: block;
+    float: left;
+    width: 22px;
+    margin-right: 9px;
+    border-radius: 100%;
+    background-color: #28aae2;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 1px 1px 2px 1px;    
+}
+
+#btn-inferior input{
+    height: 30px;
+    width: 103px;
+    font-size: 15px;
+    border: none;
+    border-radius: 22px;
+    background-color: #2babe2;
+    color: #ffffff;
+    position: relative;
+    top: 177px;
+    right: 0;
+    left: 283px;
+    bottom: 0;
+    padding: 3px;
+    filter: drop-shadow(1px 3px 4px black);
+}
+
+#btn-space{
+    margin-left: 7px;    
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./css/cadastro-login.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    </style>
+</head>
+
+
+<body>
+
+
+    <div class="div1">
+        <header>
+            <a href="acessar.html" id="btn-voltar"><img src="./images/Botão (voltar).png" class="btnVoltar"></a>   
+        </header>
+    </div>
+
+    <div id="elementoMovivel" style="display: inline-block; text-align: center;">
+        <h2>
+            <p> Entre no  <br> <img src="./images/logo-dash.png" alt="logo principal" id="logo001">
+        </h2>
+        <button class="button2"> <img src="./images/Login Google.png" class="buttonGmail"></button><br>
+
+        E-mail <br><input type="email" name="" placeholder="Digite o seu e-mail"><br>
+
+        Senha <br> <input type="password" name="senha" placeholder="Digite a sua senha"><br>
+
+        Confirmar Senha <br> <input type="password" name="senha" placeholder="Digite a senha novamente"><br>
+
+        <a href="acessar.html"><button class="registrar">Registrar</button></a>
+    </div>
+
+    <div id="div3">
+
+        <h2>Já possui <br> Login?</h2>
+        <button class="button3">Entrar</button><br>
+        <button class="button4"> Precisa de ajuda?</button>
+
+
+
+
+    </div>
+
+    <div class="circulo"></div>
+
+    <script>
+        const botaoEntrar = document.querySelector('.registrar');
+
+        botaoEntrar.addEventListener('click', () => {
+            alert('Registro realizado com sucesso!');
+        });
+
+
+    </script>
+
+
+
+
+</html>

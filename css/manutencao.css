@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+.body {
+    font-family: Inter, Arial, sans sans-serif;
+}
+html {
+    background-color: rgb(19, 19, 19);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.bola{
+position: absolute;
+width: 660px;
+height: 660px;
+left: 17px;
+top: 432px;
+border-radius: 100%;
+    
+background: #0923FC;
+
+}
+
+.logo {
+    margin-left: 24px;
+}
+
+.lateral {
+    margin-top: 20px;
+    width: 150px;
+}
+.botaovoltar {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top:10px;
+}
+
+.Tela1{
+position: absolute;
+width: 1610px;
+height: 850px;
+left: 260px;
+top: 30px;
+background: #1d1b1b;
+border-radius: 30px;
+}
+
+.Manutencao{
+    color:  white;
+    margin-left: 25px;
+}
+
+.Tela2{
+    background-color:rgb(19,19,19);
+    width: 1550px;
+    height: 190px;
+    border-radius: 30px ;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 25px;
+
+    ;
+}
+
+.foto{
+    width: 150px;
+    height:140px;
+    margin: 30px;
+    border-radius: 25px;
+
+}
+
+.titulo1{
+ color: white;
+ margin: 30px;
+ width: 500px;
+    
+}
+
+
+.titulo2{
+    color: white;
+       margin: 10px;
+       width: 500px;
+   }
+
+.botao{
+    background-color: #1d1b1b;
+    color: white;
+    width: 210px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 15px;
+   }
+
+.botao:hover{
+    background-color: rgb(36, 39, 255);
+}
+.curso {
+    color: white;
+   }
+
+.botao2{
+    background-color: #1d1b1b;
+    color: rgb(87, 202, 11);
+    width: 210px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 15px;
+   }
+
+.cor {
+    color: green;
+}
+
+
+.manutenção1{
+    position: absolute;
+    width: 945px;
+    height: 128px;
+    left: 278px;
+    top: 88px;
+   
+
+}
+
+
+
+.manutenção2{
+position: absolute;
+width: 945px;
+height: 128px;
+left: 278px;
+top: 225px;
+background-color: black;
+}
+
+
+
+.manutenção3{
+    position: absolute;
+    width: 945px;
+    height: 128px;
+    left: 278px;
+    top: 362px;
+}
+
+
+.manutenção4{
+    position: absolute;
+    width: 945px;
+    height: 128px;
+    left: 278px;
+    top: 499px;
+}
+
+
+
+header{
+    color: white;
+}

@@ -1,0 +1,487 @@
+html{
+
+    font-family: "Inter",sans-serif;
+    height: 107rem;
+    margin: 0;
+    padding: 0;
+    background-color: #191A1E;
+    
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/inter-ExtraBold.ttf') format('truetype');
+  }
+body{
+    height: 86rem;
+    
+}
+.mainMenuNav{
+    width: 100%;
+    position: absolute;
+    top: 3.1%;
+    background-color: #191A1E;
+    height: 5rem;
+    left: 0;
+}
+.mainMenuItem{
+    margin-right: 12rem;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    font-size: larger;
+}
+.acesso{
+    position: relative;
+    float: right;
+    border-radius: 20px;
+    top: -4rem;
+    right: 3rem;
+    width: 6rem;
+    height: 2.5rem;
+    padding: 5px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: #1b2b50;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.acesso:hover{
+    background-color:white;
+    color:#1b2b50 ;
+}
+.mainLogo{
+    position: relative;
+    top: 36%;
+    left: 5%;
+}
+.unanimatedList{
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    top: -1.6rem;
+}
+
+.unanimatedListBottom{
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    top: 4rem;
+}
+.mainMenuButtons{
+    position: relative;
+    left: 29%;
+    width: 47%;
+}
+#login{
+    right: 0;
+    border-radius: 22px;
+    position: relative;
+    padding: 0.1rem;
+    width: 4rem;
+    height: 1.659rem;
+    background-color: #112193;
+    color: white;
+    border: 0;
+    width: 0; 
+ 
+}
+.triangulo {
+    transform: rotate(270deg);
+    width: 0;
+    position: relative;
+    right: -7.3px;
+    border-radius: 5px;
+    height: 3px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid rgb(43 171 226);
+    border-bottom: 10px solid transparent;
+    top: -0.56rem;
+}
+.citizenAcess{  
+    font-weight: bold;
+    width: 10.313rem;
+    height: 2.313rem;
+    border-radius: 19.5px;
+    padding: 0.3rem;
+    font-weight: 700;
+    color: rgb(17, 116, 197);
+}
+.principal{
+    position: absolute;
+    width: 30%;
+    left: 12%;
+    top: 20%;
+}
+.acess{
+    left: 0.2rem;
+    font-size: small;
+    position: relative;
+    top: 0.2rem;
+
+}
+.acess:hover{
+    color: #000;
+}
+.slongan{
+    top: -152px;
+    z-index: 1;
+    color: #212226;
+    position: absolute;
+    font-size: 5rem;
+    width: 45rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+.transform{
+    z-index: 0;
+    background-color: #28aae2;
+    width: 18rem;
+    height: 2.5rem;
+    position: absolute;
+    left: 14.7rem;
+    border-radius: 20px;
+    top: 4.2rem;
+    filter: blur(8px);
+
+}
+.frase{
+    left: 12.7%;
+    color: #212226;
+    position: absolute;
+    width: 36%;
+    top: 40%;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: larger;
+}
+.circle{
+    position: relative;
+    float: right;
+    height: 27.875rem;
+    width: 27.875rem;
+    border-radius: 100%;
+    background-color: blue;
+    top: -16rem;
+    right: 5rem;
+}
+.about{
+    left: 12.7%;
+    width: 19%;
+    position: relative;
+    top: -33%;
+}
+.clickHere{
+    font-size: larger;
+    top: -44%;
+    left: 37.7%;
+    position: relative;
+    background-color: #242323;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    margin: 7px;
+    width: 145px;
+    height: 35px;
+    padding: 5px;
+
+}
+.telIcon{
+    margin-right: 10px;
+    width: 6.9%;
+    left: 12%;
+    top: -8px;
+    position: relative;
+    filter: invert(1);
+}
+.contact:hover{
+    filter: drop-shadow(2px 4px 6px black);
+    filter: opacity(0.5);
+
+}
+.email{
+    position: relative;
+    top: -27px;
+    left: -22rem;
+}
+.email:hover{
+    filter: drop-shadow(2px 4px 6px black);
+    filter: opacity(0.5);
+}
+.emailIcon{
+    width: 26px;
+    left: 32%;
+    top: 15.5px;
+    position: relative;
+    filter: invert(1);
+
+}
+.emailAddres{
+    position: relative;
+    top: 8px;
+    left: 32.5%;
+    font-size: x-small;
+
+}
+.clickHere:hover{
+    color: black;
+    background-color: #33aee3;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.phoneNumber{
+    position: relative;
+    top: -4px;
+    left: 12.5%;
+    font-size: x-small;
+}
+.mainElements{
+    width: 100%;
+    top: 18%;
+    position: absolute;
+    height: 40rem;
+    left: 0;
+
+}
+
+.gifInitial{
+    left: 5%;
+    width: 90%;
+    position: absolute;
+    top: -24rem;
+    height: 70rem;
+}
+
+.mainBackground{
+    filter: drop-shadow(2px 4px 6px black);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.rolls{
+    position: relative;
+    top: 30%;
+    padding: 6rem;
+}
+.scroll-right{
+    position: relative;
+    float: right;
+    width: 4rem;
+    height: 3rem;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 900;
+    background-color: #222327;
+    border: none;
+    border-radius: 18px;
+    color: white;
+}
+.scroll-right:hover{
+    background-color: #28aae2;
+}
+.scroll-left{
+    position: relative;
+    width: 4rem;
+    height: 3rem;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 900;
+    background-color: #222327;
+    border: none;
+    border-radius: 18px;
+    color: white;
+}
+.scroll-left:hover{
+    background-color: #28aae2;
+}
+.articles{
+    left: 10%;
+    width: 95rem;
+    overflow: auto;
+    position: absolute;
+    top: 51.5rem;
+    height: 37.05rem;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+	
+}
+  .articles::-webkit-scrollbar {
+    display: none; /* para Chrome, Safari e Edge */
+  }
+
+
+.titleBox{
+    width: 5rem;
+    left: 10%;
+    position: relative;
+    font-size: 2.875rem;
+    color: #ffffff;
+    top: 58%;
+    z-index: 1;
+}
+#articleBlueCircle1{
+    top: -3.8rem;
+}
+.serviceBox{
+    margin-right: 4rem;
+    width: 15.25rem;
+    height: 24.688rem;
+    background-color: rgba(34, 35, 39, 1);
+    border-radius: 1.875rem;
+    padding: 1rem;
+    top: 8rem;
+    left: 2rem;
+    position: relative;
+}
+.blueBar{
+    width: 3.563rem;
+    height: 0.188rem;
+    background: #272594;
+    position: relative;
+    top: -3rem;
+    border-radius: 0.094rem;
+}
+.articleBlueBar{
+    width: 3.563rem;
+    height: 0.188rem;
+    background: #2babe2;
+    position: relative;
+    top:-0.5rem;
+    border-radius: 0.094rem; 
+}
+.imageArticle{
+    border-radius: 1.25rem;
+    position: relative;
+    height: 10.75rem;
+    width: 16.4rem;
+    filter: drop-shadow(20px 4px 35px rgba(0, 0, 0, 0.05));
+}   
+.articleTitle{
+    color: white;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.513rem;
+    letter-spacing: -0.04em;
+}
+.articleText{
+    color: rgba(122, 122, 122, 1);
+    width: 9.875rem;
+    height: 3.563rem;
+    font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.04em;
+    
+}
+.articleBlueCircle{
+    position: relative;
+    left: 12rem;
+    width: 35px;
+    height: 35px;
+    background: #2babe2;
+    border-radius: 100%;
+    top: -2rem;
+    
+}
+.articleBlueCircleContent{
+    position: relative;
+    color: white;
+    padding: 1rem;
+    font-size: 49px;
+    top: -1.9rem;
+    left: -0.4rem;
+    font-weight: bolder;
+}
+.footerContainer{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #222327;
+    width: 100%;
+    height: 30%;
+    left: 0;
+    top: 90rem;
+}
+.address{
+    top: 6rem;
+    width: 39rem;
+    left: 5.99rem;
+    position: relative;
+    color: white;
+}
+.mainFooterLogo{
+    position: relative;
+    float: right;
+    bottom: 0rem;
+    width: 8.375rem;
+    position: relative;
+    right: 3rem;
+}
+.handLike{
+    position: absolute;
+    height: 21.875rem;
+    top: 25%;
+    left: 71.3%;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.hidden{
+    display: none;
+}
+.articleContainer{
+    top: 55%;
+    height: 35%;
+    width: 100.8%;
+    position: relative;
+    background-color: #164669;
+    margin: 0;
+    padding: 0;
+    left: -7px;
+}
+.mainMenuOptions{
+    top: 24%;
+    position: relative;
+    float: right;
+    width: 1rem;
+    right: 24%;
+    height: 3rem;
+    background-color: #2babe2;
+    border: none;
+    padding: 0.1rem;
+}
+.select{
+    top: 23%;
+    width: 80%;
+    position: relative;
+    filter: invert(1);
+    right: 53%;
+}
+
+#servidor{
+    z-index: 1;
+    display: flex;
+    position: relative;
+    left: -10.5rem;
+    top: 2rem;
+}
+.down{
+    font-size: medium;
+    transform: rotate(90deg);
+    position: relative;
+    top: -0.5rem;
+}
+
+
+a{ /*Botão de Voltar*/    
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    top: 9px;
+    right: 0;
+    left: 54px;
+    bottom: 0;
+}
+

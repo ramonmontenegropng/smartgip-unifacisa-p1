@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart GIP</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    
+	<script>
+        function scroll_left(){
+            const scrollContainer = document.querySelector('.articles');
+            const scrollLeftButton = document.querySelector('.scroll-left');
+            scrollLeftButton.addEventListener('click', () => {
+                scrollContainer.scrollLeft -= 100;
+            });
+        }
+        function scroll_right(){
+            const scrollContainer = document.querySelector('.articles');
+            const scrollRightButton = document.querySelector('.scroll-right');
+            scrollRightButton.addEventListener('click', () => {
+                scrollContainer.scrollLeft += 100;
+            });
+
+        }
+    </script>
+
+    <header>
+        <div class="mainMenuNav">
+            <img src="./images/logo-dash.png" alt="Logo Principal" class="mainLogo">
+            <div class="mainMenuButtons">
+                <ul class="unanimatedList">
+                    <li><a href="index.html" class="mainMenuItem">Início</a></li>
+                    <li><a href="como_funciona" class="mainMenuItem">Como funciona</a></li>
+                    <li><a href="contatos" class="mainMenuItem">Projetos</a></li>
+                </ul>
+            </div>
+            <button type="button" class="acesso"><a href="acessar.html" class="acess">Acesso</a>  </button>
+        </div>
+        
+    </header>
+    <body>
+        <div class="mainElements">
+            <section class="mainBackground"><img src="./images/5137c469288297.5b7c3e98bee9d.gif" alt="imagem animada"  class="gifInitial"></section>
+            <section class="principal">
+                <h1 class="slongan">Transforme dados em soluções</h1>
+                <div class="transform"></div>
+            </section>
+            <section class="frase">
+                <p>Apresentamos nossa solução de gerenciamento de projetos para prefeituras, utilizando sensores IoT e dados analíticos para tomada de decisão assertiva e impactos positivos na comunidade.</p>
+        
+            </section>
+            <section>
+                <section><img src="./images/hand-like-inicial 1.png" alt="dedao" class="handLike"></section>
+            </section>
+            <aside class="about"><p>Utilize a tecnologia de sensores via rede para o bem estar
+                dos cidadãos e economia na sua gestão</p></aside>
+            <input type="button" value="Clique Aqui!" class="clickHere">
+        </div>
+        <section class="titleBox">
+            <h3>Serviços</h3>
+            <section class="blueBar"></section>
+        </section>
+        <div class="articleContainer"></div>
+        <div class="rolls">
+            <button class="scroll-right" onclick="scroll_right()">></button>
+            <button class="scroll-left" onclick="scroll_left()"><</button>
+        </div>
+        <div class="articles" id="rollsTest">
+                <article class="serviceBox">
+                    <head>
+                        <img src="./images/art01.png" alt="" class="imageArticle">
+                        <p class="articleTitle">Detecção da presença de poluente</p>
+                        <section class="articleBlueBar"></section>
+                    </head>
+                        <section class="lineElement"></section>
+                        <section><p class="articleText">Averigue presença de 
+                            poluentes no ar e na 
+                            água dos cidadãos</p>
+                        </section>
+                        <section class="articleBlueCircle" id="articleBlueCircle1"> <p class="articleBlueCircleContent">&rsaquo;</p></section>
+                </article>
+                <article class="serviceBox">
+                    <head>
+                        <img src="./images/art02.png" alt="" class="imageArticle">
+                        <p class="articleTitle">Umidade do Solo</p>
+                        <section class="articleBlueBar"></section>
+                    </head>
+
+                        <section class="lineElement"></section>
+                        <section><p class="articleText">Auxilie projetos de 
+                            agricultura ou 
+                            conservação de
+                            recursos naturais.</p>
+                        </section>
+                        <section class="articleBlueCircle"> <p class="articleBlueCircleContent">&rsaquo;</p></section>
+                    
+                </article>
+                <article class="serviceBox">
+                    <head>
+                        <img src="./images/art03.png" alt="" class="imageArticle">
+                        <p class="articleTitle">Nível de água</p>
+                        <section class="articleBlueBar"></section>
+                    </head>
+
+                        <section class="lineElement"></section>
+                        <section><p class="articleText">Monitore o nível de água 
+                            em rios, lagos e
+                            reservatórios.</p>
+                        </section>
+                        <section class="articleBlueCircle"> <p class="articleBlueCircleContent">&rsaquo;</p></section>
+                    
+                </article>
+                <article class="serviceBox">
+                    <head>
+                        <img src="./images/art04.png" alt="" class="imageArticle">
+                        <p class="articleTitle">Gestão de Tráfego</p>
+                        <section class="articleBlueBar"></section>
+                    </head>
+
+                        <section class="lineElement"></section>
+                        <section><p class="articleText">Gerencie melhor o tráfego
+                            de veículos e pedestres 
+                            em determinadas área.</p>
+                        </section>
+                        <section class="articleBlueCircle"> <p class="articleBlueCircleContent">&rsaquo;</p></section>
+                    
+                </article>
+                <article class="serviceBox">
+                    <head>
+                        <img src="./images/art05.png" alt="" class="imageArticle">
+                        <p class="articleTitle">Câmeras</p>
+                        <section class="articleBlueBar"></section>
+                    </head>
+
+                        <section class="lineElement"></section>
+                        <section><p class="articleText">Tenha controle
+                            em tempo real
+                            do que está
+                            acontecendo</p>
+                        </section>
+                        <section class="articleBlueCircle"> <p class="articleBlueCircleContent">&rsaquo;</p></section>
+                    
+                </article>
+        </div>
+    
+    </body>
+
+<footer>
+    <div class="footerContainer">
+        <section>
+            <ol class="unanimatedListBottom">
+                <li><a href="" class="mainMenuItem">Ajuda e Contato</a></li>
+                <li><a href="" class="mainMenuItem">Dicas de Segurança</a></li>
+                <li><a href="" class="mainMenuItem">Mapa do site</a></li>
+                <li><a href="" class="mainMenuItem">Termos de Uso</a></li>
+            </ol>
+            <aside>
+                <p class="address">Av. Sen. Argemiro de Figueiredo, 1901 - Itararé, Campina Grande - PB, 58411-020</p>
+            </aside>
+            <aside>
+                <img src="./images/logo.png" alt="Logo Principal" class="mainFooterLogo">
+            </aside>
+        </section>
+    </div>
+</footer>
+</html>

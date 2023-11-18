@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/cadastro-login.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    </style>
+</head>
+
+
+<body>
+    
+   
+     <div><header>
+        <a href="index.html" id="btn-voltar"><img src="./images/Botão (voltar).png" class="btnVoltar"></a>   
+    </div>
+
+    <div id="elementoMovivel">
+        <h2>
+            <p> Entre no  <br> <img src="./images/logo-dash.png" alt="logo principal" id="logo001">
+        </h2>
+        <button class="button2"> 
+            <img src="./images/Login Google.png" class="buttonGmail">
+        </button><br>
+
+        E-mail <br><input type="email" name="" placeholder="Digite o seu e-mail"><br>
+
+        Senha <br> <input type="password" name="senha" placeholder="Digite a sua senha"><br>
+
+        <a href="dashboard.html"><button class="entrar">Entrar</button></a>
+    </div>
+
+    <div id="div3">
+
+        <h2>Não possui <br> cadastro?</h2>
+        <button class="button3"><a href="cadastro.html">Criar conta</a> </button><br>
+        <button class="button4"> Precisa de ajuda?</button>
+        
+
+       
+        
+    </div>
+
+    <div class="circulo"></div>
+
+    <script>
+        const botaoEntrar = document.querySelector('.entrar');
+
+   botaoEntrar.addEventListener('click', () => {
+   alert('Login realizado com sucesso!');
+   });
+
+   </script>
+
+   
+</html>

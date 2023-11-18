@@ -1,0 +1,201 @@
+html{
+
+    font-family: "Inter",sans-serif;
+    height: 59rem;
+    margin: 0;
+    padding: 0;
+    background-color: #191A1E;
+    
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/inter-ExtraBold.ttf') format('truetype');
+  }
+.voltar{
+    border-radius: 100%;
+    background-color: blue;
+    color: white;
+    position: flex;
+    top: 20px;
+    left: 20px;
+    border: 50px;
+    margin: auto;
+    
+    
+   
+   
+    
+}
+header{
+    color: white;
+    margin: 22px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    border: 50px;
+    margin-right: 10%;
+    
+}
+
+.circulo {
+    height: 50rem;
+    width: 50rem;
+    border-radius: 100%;
+    background-color: blue;
+    position: fixed;
+    bottom: -21rem;
+    right: 12rem;
+    overflow: hidden;
+    z-index: 1;
+}
+#elementoMovivel{
+    z-index: 2;
+    border-radius: 30px;
+    background-color: rgb(41, 41, 41);
+    width: 30%;
+    height: 67%;
+    position: absolute;
+    top: 174px;
+    left: 620px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+#logo001{
+    position: relative;
+    left: -1.2rem;
+    width: 13rem;
+}
+.buttonGmail{
+    position: relative;
+    top: -0.55rem;
+    right: 4rem;
+}
+.btnVoltar{
+    position: relative;
+    left: -5rem;
+    top: -11rem;
+}
+#btn-voltar {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    top: 173px;
+    right: 0;
+    left: 83px;
+    bottom: 0;
+}
+#div3 {
+    border-radius: 25px;
+    background-color: rgb(41, 41, 41);
+    height: 236px;
+    width: 18%;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 18.5%;
+    left: 1200px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+p{
+    text-indent: -4em;
+    margin: 0%;
+   
+}
+.button2{
+    z-index: 2;
+    font-weight: bold;
+    width: 10.313rem;
+    height: 2.313rem;
+    border-radius: 19.5px;
+    padding: 0.3rem;
+    font-weight: 700;
+    color:black;
+    margin: 20px;
+
+   
+}
+.button3{
+    z-index: 2;
+    position: relative;
+    top: 2rem;
+    background-color: blue;
+    width: 10.313rem;
+    height: 2.313rem;
+    border-radius: 19.5px;
+    padding: 0.3rem;
+    font-weight: 700;
+    margin: 5%;
+}
+.button4{
+    width: 10.313rem;
+    height: 2.313rem;
+    border-radius: 19.5px;
+    padding: 0.3rem;
+    font-weight: 700;
+    margin: 10%;
+    z-index: 2;
+    position: relative;
+    top: 4rem;
+    border: none;
+
+    
+}
+input{
+    width: 15.313rem;
+    border-radius: 19.5px;
+    margin: 10px;
+    height: 25px;
+    width: 350px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    color:grey;
+    background-color: rgb(41, 41, 41);
+}
+.registrar{
+    position: relative;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 11.313rem;
+    height: 3.313rem;
+    border-radius: 19.5px;
+    padding: 0.3rem;
+    font-weight: 700;
+    margin: 100px;
+    font-size: medium;
+    top: -4rem;
+
+}
+
+
+.menu {
+    color: white;
+}
+
+.entrar{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 11.313rem;
+    height: 3.313rem;
+    border-radius: 19.5px;
+    padding: 0.3rem;
+    font-weight: 700;
+    margin: 100px;
+    font-size: medium;
+}
+div {
+    width: 400px;
+    display:inline-block;
+}
+a{
+    color: white;
+}

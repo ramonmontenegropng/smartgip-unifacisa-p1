@@ -1,0 +1,349 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+.body {
+    background-color: #191A1E;
+    font-family: Inter, Arial, Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1900px;
+    height: 920px;
+    grid-gap: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1.1fr 1fr 1fr;
+    grid-template-rows: 70px 1.1fr 1fr 1fr;
+    grid-template-areas:
+        "cabecalho cabecalho cabecalho cabecalho"
+        "projetosativos sensores sensores sensores"
+        "projetosativos estatisticas manutencao manutencao"
+        "projetosativos mapa mapa botoes";
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.cabecalho {
+    grid-area: "cabecalho";
+    grid-column: cabecalho;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.botaobuscar {
+    width: 400px;
+    height: 40px;
+    background-color: #222327;
+    border-radius: 25px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+
+}
+
+.botaobuscar:hover {
+    background-color: #35373d;
+    transition: 0.2s;
+    color: white;
+
+}
+
+.inputbotaobuscar {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    font-family: Inter, Arial, Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.sair {
+    color: rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 60px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.sair:hover {
+    background-color:#222327;
+    transition: 0.2s;
+}
+
+.projetosativos {
+    grid-area: "projetosativos";
+    grid-row: projetosativos;
+    border-radius: 30px;
+}
+
+.tituloprojetosativos {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+}
+
+.botaonovoprojeto {
+    width: 155px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: rgb(196, 196, 196);
+    color: #191A1E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.botaonovoprojeto:hover {
+    background-color: rgb(233, 233, 233);
+    transition: 0.2s;
+}
+
+.subtituloprojetosativos {
+    font-size: 13px;
+    color: #5A5A5A;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+.projeto {
+    color: white;
+    height: 35px;
+    table-layout: fixed;
+    padding-left: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.projeto:hover {
+    background-color: #35373d;
+}
+
+.iconprojeto {
+    width: 60px;
+}
+
+.nomeprojeto {
+    width: 290px;
+}
+
+.bairroprojeto {
+    width: 300px;
+}
+
+.sensores {
+    background-color: #222327;
+    grid-area: "sensores";
+    grid-column: sensores;
+    border-radius: 30px;
+    color: white;
+}
+
+.modulosensores {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sensor {
+    background-color: rgb(209, 209, 209);
+    color: #191A1E;
+    width: 140px;
+    height: 175px;
+    border-radius: 30px;
+    display: grid;
+    justify-items: center;
+}
+
+.iconesensor {
+    background-color: #0923FC ;
+    width: 75px;
+    height: 75px;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaofalha {
+    background-color: red;
+    color: white;
+    width: 85px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.botaoaveriguar {
+    background-color: rgb(240, 169, 17);
+    color: white;
+    width: 85px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.botaonormal {
+    background-color: rgb(59, 185, 9);
+    color: white;
+    width: 85px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.botoessensor {
+    display: flex;
+    align-items: center;
+}
+
+.nomesensor {
+    margin: 0;
+}
+
+.estatisticas {
+    background-color: #222327;
+    grid-area: "estatisticas";
+    border-radius: 30px;
+
+}
+
+.moduloestatistica {
+    height: 55px;
+    margin-left: 25px;
+    color:#727272;
+}
+
+.barramaiorestatistica {
+    background-color:#5A5A5A;
+    width: 340px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.barramenorestatistica1 {
+    background-color:#0923FC;
+    width: 80%;
+    height: 25px;
+    border-radius: 25px;
+}
+
+.barramenorestatistica2 {
+    background-color:#0923FC;
+    width: 65%;
+    height: 25px;
+    border-radius: 25px;
+}
+
+.barramenorestatistica3 {
+    background-color:#0923FC;
+    width: 50%;
+    height: 25px;
+    border-radius: 25px;
+}
+
+.nomebarraestatistica {
+    margin: 10px;
+    font-size: 12px;
+}
+
+.manutencao {
+    background-color: #222327;
+    grid-area: "manutencao";
+    grid-column: manutencao;
+    border-radius: 30px;
+}
+
+.titulos {
+    color: white;
+    padding-left: 25px; 
+    border-radius: 25px; 
+}
+
+.listamanutencao {
+    color: rgb(153, 153, 153);
+    text-decoration: underline;
+}
+
+.botaoescuro {
+    background-color:#191A1E;
+    color: white;
+    border-radius: 30px;
+    width: 155px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.botaoescuro:hover {
+    background-color:#35373d;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.mapa {
+    background-color: #222327;
+    grid-area: "mapa";
+    grid-column: mapa;
+    border-radius: 30px;
+
+}
+
+.mapasite {
+    border-radius: 25px;
+    width: 730px;
+    height: 155px;
+    margin-left: 20px;
+}
+
+.botoes {
+    grid-area: "botoes";
+}
+
+.botaoespecifico {
+    background-color: #222327;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    width: 340px;
+    height: 45px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaoespecifico:hover {
+    background-color:#35373d;
+    transition: 0.1s;
+    text-decoration: none;
+}
